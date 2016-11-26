@@ -36,6 +36,6 @@ You will then need to add some configurations to your `.bash_profile`, you can l
 
 ## Install bundler
 
-`sudo gem install bundler`
+`gem install bundler`
 
 This one isn't mandatory, but I highly sugest it.

@@ -17,7 +17,7 @@ Now you can run the command `rbenv init`, this will tell you need to add a comma
 rbenv setup:
 ```
 rbenv install 2.3.1
-rbenv gloal 2.3.1
+rbenv global 2.3.1
 ```
 This is just an example of a ruby version, you can use any version you prefer.
 

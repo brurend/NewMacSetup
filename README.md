@@ -34,8 +34,15 @@ brew install bash-git-prompt
 
 You will then need to add some configurations to your `.bash_profile`, you can look at this repository file to find it.
 
+You may also need to install `git` using `brew` or autocompletion may not work. Install it with:
+```
+brew install git
+```
+
+Don't forget to restart your terminal so changes takes place.
+
 ## Install bundler
 
 `gem install bundler`
 
-This one isn't mandatory, but I highly sugest it.
+This one isn't mandatory, but I highly suggest it.

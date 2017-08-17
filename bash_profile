@@ -13,3 +13,19 @@ fi
 
 # rbenv
 eval "$(rbenv init -)"
+
+# Function to open Xcode project, checking if there is a workspace present or not. By @CavalcanteLeo
+function xc {
+    bold=$(tput bold)
+    normal=$(tput sgr0)
+
+    xcode_proj=`find . -name "*.xc*" -d 1 | sort -r | head -1`
+
+    if [[ `echo -n $xcode_proj | wc -m` == 0 ]]
+    then
+        echo "No xcworkspace/xcodeproj file found in the current directory."
+    else
+        echo "Opening ${bold} $xcode_proj"
+        open -a /Applications/Xcode.app "$xcode_proj"
+    fi
+}

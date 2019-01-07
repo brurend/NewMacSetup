@@ -1,10 +1,10 @@
 # NewMacSetup
 
-## Download homebrew
+## 1) Download homebrew
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-## Install rbenv
+## 2) Install rbenv
 
 First install rbenv using home brew.
 ```
@@ -16,16 +16,16 @@ Now you can run the command `rbenv init`, this will tell you need to add a comma
 
 rbenv setup:
 ```
-rbenv install 2.3.1
-rbenv global 2.3.1
+rbenv install 2.5.1
+rbenv global 2.5.1
 ```
 This is just an example of a ruby version, you can use any version you prefer.
 
-## Download iTerm2
+## 3) Download iTerm2
 
 https://www.iterm2.com/downloads.html
 
-## Install bash completion
+## 4) Install bash completion
 
 ```
 brew install bash-completion
@@ -41,7 +41,7 @@ brew install git
 
 Don't forget to restart your terminal so changes takes place.
 
-## Install bundler
+## 5) Install bundler
 
 `gem install bundler`
 
